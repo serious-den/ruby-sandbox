@@ -3,11 +3,11 @@ task :purchaseAlchohol do
 end
 
 task :mixDrink do
-  puts "Замешал коктейль 'Мохнатый пупок'"
+  puts "11111111"
 end
 
 task :getSmashed do
-  puts "Чувак, чота ты какой-то размытый.. И-и-ик, накатим еще по стопарю?"
+  puts "22222222222222"
 end
 
 task :default do
@@ -23,9 +23,6 @@ require 'ci/reporter/rake/spinach'   # use this if you're using Spinach
 require 'ci/reporter/rake/test_unit' # use this if you're using Test::Unit
 =end
 require 'ci/reporter/rake/minitest'  # use this if you're using Ruby 1.9 or minitest
-
-
-
 
 Rake::TestTask.new(:test) do |t|
   t.libs << "test"
