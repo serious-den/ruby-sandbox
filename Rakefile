@@ -16,7 +16,6 @@ end
 
 require 'rake/testtask'
 
-gem 'ci_reporter'
 require 'ci/reporter/rake/rspec'     # use this if you're using RSpec
 require 'ci/reporter/rake/cucumber'  # use this if you're using Cucumber
 require 'ci/reporter/rake/spinach'   # use this if you're using Spinach
