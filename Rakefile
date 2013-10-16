@@ -1,5 +1,5 @@
 task :purchaseAlchohol do
-  puts "Купил водки"
+  puts "00000000000"
 end
 
 task :mixDrink do
