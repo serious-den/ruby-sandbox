@@ -19,9 +19,7 @@ class TestSimpleNumber < Test::Unit::TestCase
   end
  
   def test_failure
-=begin
     assert_equal(3, SimpleNumber.new(2).add(2), "Adding doesn't work" )
-=end
   end
  
 end
