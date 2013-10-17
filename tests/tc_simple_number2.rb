@@ -1,6 +1,6 @@
 # File:  tc_simple_number2.rb
  
-require "./simple_number"
+require "./lib/simple_number"
 require "test/unit"
  
 class TestSimpleNumber < Test::Unit::TestCase
@@ -13,11 +13,13 @@ class TestSimpleNumber < Test::Unit::TestCase
   def test_typecheck
     assert_raise( RuntimeError ) { SimpleNumber.new('a') }
   end
+
+  def test_typecheck_copy
+    assert_raise( RuntimeError ) { SimpleNumber.new('a') }
+  end
  
   def test_failure
-=begin
     assert_equal(3, SimpleNumber.new(2).add(2), "Adding doesn't work" )
-=end
   end
  
 end

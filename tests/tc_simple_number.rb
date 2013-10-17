@@ -1,6 +1,6 @@
 # File:  tc_simple_number.rb
  
-require "./simple_number"
+require "./lib/simple_number"
 require "test/unit"
  
 class TestSimpleNumber < Test::Unit::TestCase
