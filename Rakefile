@@ -28,6 +28,3 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = true
 end
 
-Rails:: :site do
-
-end
